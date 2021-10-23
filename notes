@@ -6,3 +6,5 @@ kubectl get replicaset
 kubectl delete replicaset myapp-replicaset
 kubectl describe replicaset myapp-replicaset
 kubectl edit replicaset myapp-replicaset
+kubectl scale replicaset myapp-replicaset --replicas=2
+kubectl get all
