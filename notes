@@ -5,3 +5,4 @@ kubectl create -f replicaset-defination.yml
 kubectl get replicaset
 kubectl delete replicaset myapp-replicaset
 kubectl describe replicaset myapp-replicaset
+kubectl edit replicaset myapp-replicaset
