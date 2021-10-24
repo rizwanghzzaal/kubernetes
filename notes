@@ -35,3 +35,6 @@ NodePort Range:
 
 Pod Private IP CIDR:
 10.244.0.0
+
+
+kubectl get services
