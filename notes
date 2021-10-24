@@ -36,5 +36,9 @@ NodePort Range:
 Pod Private IP CIDR:
 10.244.0.0
 
-
+kubectl create -f service-defination.yaml
 kubectl get services
+
+kubectl get svc
+
+minikube service myapp-service --url
