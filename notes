@@ -25,3 +25,13 @@ kubectl rollout status deployment/myapp-deployment
 kubectl rollout history deployment/myapp-deployment
 kubectl rollout undo deployment/myapp-deployment
 kubectl create -f deployment.yaml --record
+
+
+
+
+NodePort Range:
+30000 - 32767
+
+
+Pod Private IP CIDR:
+10.244.0.0
